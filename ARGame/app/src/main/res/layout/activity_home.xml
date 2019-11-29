@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:gravity="center_horizontal"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/btnCamara"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:background="@drawable/camara"
+        
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnColeccion"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:background="@drawable/coleccion"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btn_salir"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:onClick="SignOut"
+        android:text="Cerrar Sesión" />
+</LinearLayout>

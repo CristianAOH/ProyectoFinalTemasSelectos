@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_login"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="515dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="150dp">
+
+        <EditText
+            android:id="@+id/edtxtEmail"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="30dp"
+            android:ems="10"
+            android:background="@drawable/btn_redondo"
+            android:hint=" Email"
+            android:alpha="0.5"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtxtPassword"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/btn_redondo"
+            android:ems="10"
+            android:hint=" Contraseña"
+            android:alpha="0.5"
+            android:inputType="textPassword" />
+
+        <ImageButton
+            android:id="@+id/btnLogin"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_rectangular"
+            android:onClick="signIn"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/flecha" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_buttonfb"
+            android:layout_width="193dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginEnd="111dp"
+            android:onClick="signInFb"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/login_buttonGoogle"
+            android:layout_width="200dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="103dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/login_buttonfb" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

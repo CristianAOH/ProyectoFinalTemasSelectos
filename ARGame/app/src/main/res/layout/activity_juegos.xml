@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".JuegosActivity">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="2"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btnInjustice"
+            android:layout_width="215dp"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/logo1" />
+
+        <ImageButton
+            android:id="@+id/btnJojos"
+            android:layout_width="215dp"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/logo2" />
+
+        <ImageButton
+            android:id="@+id/btnPower"
+            android:layout_width="215dp"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/logo3" />
+
+        <ImageButton
+            android:id="@+id/btnLol"
+            android:layout_width="215dp"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/logo4" />
+
+        <ImageButton
+            android:id="@+id/btnPaladins"
+            android:layout_width="215dp"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/logo5" />
+
+        <ImageButton
+            android:id="@+id/btnPokemon"
+            android:layout_width="215dp"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/logo6" />
+
+        <ImageButton
+            android:id="@+id/btnMario"
+            android:layout_width="215dp"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/logo7" />
+    </GridLayout>
+</LinearLayout>

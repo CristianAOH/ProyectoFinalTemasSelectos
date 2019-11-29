@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "990716461615",
+    "firebase_url": "https://proyecto-ar.firebaseio.com",
+    "project_id": "proyecto-ar",
+    "storage_bucket": "proyecto-ar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990716461615:android:93bb25d0f85c173ca0bcda",
+        "android_client_info": {
+          "package_name": "com.itchii.cristian.ar_game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990716461615-hqsomj0ppr3cme7o6j6h7du5tobrlv7v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.itchii.cristian.ar_game",
+            "certificate_hash": "610fce67b3385a53e996a44d51d70c058803aa37"
+          }
+        },
+        {
+          "client_id": "990716461615-ab9ohe397rafotr89oc3hijaptl7kscd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0xfqv8yZA3xmPAAYxvMV4_bTHOaZFzFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990716461615-ab9ohe397rafotr89oc3hijaptl7kscd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990716461615:android:12e81446fa715867a0bcda",
+        "android_client_info": {
+          "package_name": "com.itchii.cristian.argame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990716461615-9tpca0fsconub0mnpb5p4ugo2idob2k5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.itchii.cristian.argame",
+            "certificate_hash": "610fce67b3385a53e996a44d51d70c058803aa37"
+          }
+        },
+        {
+          "client_id": "990716461615-ab9ohe397rafotr89oc3hijaptl7kscd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0xfqv8yZA3xmPAAYxvMV4_bTHOaZFzFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990716461615-ab9ohe397rafotr89oc3hijaptl7kscd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
